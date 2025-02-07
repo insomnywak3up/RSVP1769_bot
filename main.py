@@ -60,5 +60,5 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("createevent", create_event))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
-print("Бот запущен!")
+print("Бот started ismail!")
 app.run_polling()
